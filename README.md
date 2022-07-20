@@ -4,7 +4,7 @@ Code release for the paper Self-Supervised Representation Learning from Videos o
 
 Authors: Himangi Mittal, Pedro Morgado, Unnat Jain, Abhinav Gupta
 
-[[Arxiv (Paper + Supplementary)]]
+[[Arxiv (Paper + Supplementary)]()]
 
 ### Citation
 If you find our work useful in your research, please cite:
