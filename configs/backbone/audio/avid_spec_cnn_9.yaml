@@ -1,0 +1,6 @@
+arch: 'avid_spec_cnn_9'
+args:
+  channels: 1
+  pretrained: False
+sync_bn: False
+outp_dim: 512

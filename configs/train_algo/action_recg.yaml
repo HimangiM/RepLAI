@@ -1,0 +1,2 @@
+main_worker: 'action_recg'
+prediction_variable: 'label'

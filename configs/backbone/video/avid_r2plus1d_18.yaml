@@ -1,0 +1,5 @@
+arch: 'avid_r2plus1d_18'
+args:
+  pretrained: False
+sync_bn: False
+outp_dim: 512

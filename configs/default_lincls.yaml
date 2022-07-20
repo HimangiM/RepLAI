@@ -1,0 +1,9 @@
+defaults:
+  - data: ucf101
+  - data_augm: RCF
+  - backbone: video_default
+  - optim: sgd_lincls
+  - train_algo: linear_cls_mtl
+  - environment: default
+  - hydra: default
+  - logging: default

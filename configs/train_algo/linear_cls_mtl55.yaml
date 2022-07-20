@@ -1,0 +1,8 @@
+main_worker: 'linear_cls_mtl55'
+resume_epoch: -1
+prediction_variables:
+  verb_class:
+    num_classes: 125
+  noun_class:
+    num_classes: 352
+normalize_feats: True

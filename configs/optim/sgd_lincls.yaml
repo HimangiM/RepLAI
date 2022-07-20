@@ -1,0 +1,11 @@
+method: 'SGD'
+args:
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0
+start_epoch: 0
+epochs: 30
+batch_size: 64
+cos: False
+schedule: [18, 24]
+scale_lr: False

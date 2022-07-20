@@ -1,0 +1,9 @@
+video:
+  name: MultiResizeCropFlip
+  args:
+    num_augm: 2
+    num_frames: 8
+    min_size: 128
+    max_size: 180
+    crop_size: 112
+  data_shape: [3, 8, 112, 112]

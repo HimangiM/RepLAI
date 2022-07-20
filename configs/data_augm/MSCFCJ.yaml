@@ -1,0 +1,8 @@
+video:
+  name: MultiScaleCropFlipColorJitter
+  args:
+    num_frames: 8
+    min_area: 0.25
+    crop: [112, 112]
+    color: [0.4, 0.4, 0.4, 0.1]
+  data_shape: [3, 8, 112, 112]

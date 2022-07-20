@@ -1,0 +1,16 @@
+print_freq: 20
+save_freq: 10
+save_freq_mints: 30
+name: 'exp'
+log_tb: True
+ckpt_dir: ${environment.data_dir}/checkpoints/${logging.name}/
+tb_dir: ${environment.data_dir}/tblogs/${logging.name}/
+submitit_dir: ${environment.data_dir}/logs/${logging.name}/
+result_dir: ${environment.data_dir}/results/${logging.name}/
+eval_freq: 5
+suffix: ''
+visualize: False
+retain_num_ckpt: 0
+use_wandb: False
+wandb_user: himangi10
+wandb_dir: ${environment.data_dir}/wandb/${logging.name}/

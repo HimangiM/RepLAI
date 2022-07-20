@@ -1,0 +1,5 @@
+arch: 'mc3_18'
+args:
+  pretrained: False
+sync_bn: False
+outp_dim: 512

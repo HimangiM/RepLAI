@@ -1,0 +1,5 @@
+arch: 'ResNet38'
+args:
+  pretrained: False
+sync_bn: False
+outp_dim: 2048

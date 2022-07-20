@@ -1,0 +1,11 @@
+name: EpicKitchensActionSegments
+splits:
+  train: train
+  eval: eval
+args:
+  base_path: /glusterfs/pmorgado/datasets/epic-kitchens
+  decode_audio: False
+  video_duration: 0.5
+  audio_duration: 2.0
+  clip_sampling: 'random'
+  num_clips: 1

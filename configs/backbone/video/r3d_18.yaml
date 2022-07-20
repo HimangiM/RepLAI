@@ -1,0 +1,5 @@
+arch: 'r3d_18'
+args:
+  pretrained: False
+sync_bn: False
+outp_dim: 512

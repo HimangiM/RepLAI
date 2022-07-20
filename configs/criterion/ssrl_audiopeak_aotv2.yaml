@@ -1,0 +1,7 @@
+name: 'SSRL_audiopeak_aotv2'
+args:
+  in_dim: None
+  out_dim: 128
+  temperature: 0.07
+  clr_coeff: 0.5
+  aot_coeff: 0.5

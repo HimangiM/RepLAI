@@ -1,0 +1,13 @@
+name: Ego4DAudioPeakSegments
+splits:
+  train: train
+  eval: eval
+args:
+  base_path: /glusterfs/pmorgado/datasets/epic-kitchens
+  video_duration: 0.5
+  decode_audio: True
+  audio_duration: 2.
+  num_clips: 1
+  delta_non_overlap: 0.
+  dataset: ego4D
+

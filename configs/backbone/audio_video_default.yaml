@@ -1,0 +1,3 @@
+defaults:
+  - audio: avid_spec_cnn_9
+  - video: avid_r2plus1d_18

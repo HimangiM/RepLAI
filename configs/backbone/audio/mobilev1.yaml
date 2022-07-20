@@ -1,0 +1,5 @@
+arch: 'MobileNetV1'
+args:
+  pretrained: False
+sync_bn: False
+outp_dim: 1024

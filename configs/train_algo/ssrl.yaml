@@ -1,0 +1,4 @@
+main_worker: 'ssrl'
+num_clips: 8
+clip_duration: 0.5
+segment_duration: 0.5

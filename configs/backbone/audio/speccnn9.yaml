@@ -1,0 +1,5 @@
+arch: 'SpecCNN'
+args:
+  d: 64
+sync_bn: False
+outp_dim: 512

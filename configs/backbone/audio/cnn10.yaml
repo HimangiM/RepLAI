@@ -1,0 +1,5 @@
+arch: 'Cnn10'
+args:
+  pretrained: False
+sync_bn: False
+outp_dim: 512

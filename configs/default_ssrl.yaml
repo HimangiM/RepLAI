@@ -1,0 +1,10 @@
+defaults:
+  - data: ucf101
+  - data_augm: vRCF_aLogMel
+  - backbone: audio_video_default
+  - criterion: ssrl_audiopeak_aotv2
+  - optim: sgd
+  - train_algo: ssrl
+  - environment: default
+  - hydra: default
+  - logging: default

@@ -1,0 +1,26 @@
+video_l:
+  name: ResizeCropFlip
+  args:
+    num_frames: 8
+    min_size: 128
+    max_size: 180
+    crop_size: 112
+  data_shape: [3, 8, 112, 112]
+video_r:
+  name: ResizeCropFlip
+  args:
+    num_frames: 8
+    min_size: 128
+    max_size: 180
+    crop_size: 112
+  data_shape: [3, 8, 112, 112]
+audio:
+  name: ResampleLogMelSpectrogram
+  args:
+    raw_sample_rate: 44100
+    audio_rate: 16000
+    mel_window_size: 32
+    mel_step_size: 16
+    num_mels: 80
+    num_temporal_frames: 128
+  data_shape: [1, 128, 80]

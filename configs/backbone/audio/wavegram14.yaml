@@ -1,0 +1,5 @@
+arch: 'Wavegram_Cnn14'
+args:
+  pretrained: False
+sync_bn: False
+outp_dim: 2048

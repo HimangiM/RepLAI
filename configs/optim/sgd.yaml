@@ -1,0 +1,20 @@
+method: 'SGD'
+args:
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0001
+start_epoch: 0
+epochs: 100
+batch_size: 256
+cos: True
+scale_lr: False
+backbone_lr_mult: 1.0
+grad_clipping: False
+grad_norm: False
+grad_val: False
+grad_clip_val: None
+use_lr_scheduler: False
+lr_scheduler: OneCycleLR
+lr_scheduler_args:
+  max_lr: 0.1
+  total_steps: 100
