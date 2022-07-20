@@ -3,7 +3,7 @@
 ## Installation
 (a). Clone the repository
 ```
-git clone https://github.com/HimangiM/Self-Supervised-Point-Cloud-Completion-via-Inpainting.git
+git clone https://github.com/HimangiM/SSRL_N2022.git
 ```
 (b). Install dependencies by setting up conda
 ```
