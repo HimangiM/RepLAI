@@ -11,6 +11,8 @@ We propose a self-supervised algorithm to learn representations from egocentric 
 
 For more details, please refer to our [paper]() or [project page]().
 
+![Teaser Image](./fig1.pdf)
+
 ### Citation
 If you find our work useful in your research, please cite:
 ```
