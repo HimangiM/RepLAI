@@ -70,3 +70,5 @@ We provide checkpoints for pre-trained models.
 | RepLAI (scratch) | 66.20 | 22.2 | 14.1 | 0.760 | 0.840 | 0.775 | 66.30 | 22.50 | 15.00 | [url]() |
 | RepLAI | 66.30 | 22.5 | 14.7 | 0.755 | 0.834 | 0.772 | 66.80 | 23.10 | 15.80 | [url]() |
 
+StCC: State Change Classification, AR: Action Recognition, LTA: Long-Term Anticipation, PNR: Point-of-no-return temporal localization
+
