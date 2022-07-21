@@ -52,7 +52,7 @@ We provide checkpoints for pre-trained models.
 
 ### EPIC-KITCHENS-100 
 
-| Method | Top1 Acc (Verb) | Top1 Acc (Noun) | Top5 Acc (Verb) | Top5 Acc (Noun) | Model |
+| **Method** | **Top1 Acc (Verb)** | **Top1 Acc (Noun)** | **Top5 Acc (Verb)** | **Top5 Acc (Noun)** | **Model** |
 |------- |-----------------|-----------------|-----------------|-----------------|-------|
 | RepLAI w/o AVC | 29.92 | 10.46 | 70.58 | 29.00 | [url]() |
 | RepLAI w/o AStC | 29.29 | 9.67 | 73.33 | 29.54 | [url]() |
@@ -62,7 +62,7 @@ We provide checkpoints for pre-trained models.
 
 ### Ego4D
 
-| Method | StCC: Acc | AR: Top1 Acc (Verb) | AR: Top1 Acc (Noun) | LTA: ED@(Z=20) (Verb) | LTA: ED@(Z=20) (Noun) | PNR: Err | StCC w/ Audio: Acc | AR w/ Audio: Top1 Acc (Verb) | AR w/ Audio: Top1 Acc (Noun) | Model |
+| **Method** | **StCC: Acc** | **AR: Top1 Acc (Verb)** | **AR: Top1 Acc (Noun)** | **LTA: ED@(Z=20) (Verb)** | **LTA: ED@(Z=20) (Noun)** | **PNR: Err** | **StCC w/ Audio: Acc** | **AR w/ Audio: Top1 Acc (Verb)** | **AR w/ Audio: Top1 Acc (Noun)** | **Model** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RepLAI w/o AVC | 64.00 | 20.3 | 12.4 | 0.781 | 0.854 | 0.792 | 64.60 | 22.70 | 14.00 | [url]() |
 | RepLAI w/o AStC | 63.60 | 21.1 | 13.5 | 0.774 | 0.853 | 0.795 | 64.40 | 21.40  | 13.00 | [url]() |
@@ -70,5 +70,5 @@ We provide checkpoints for pre-trained models.
 | RepLAI (scratch) | 66.20 | 22.2 | 14.1 | 0.760 | 0.840 | 0.775 | 66.30 | 22.50 | 15.00 | [url]() |
 | RepLAI | 66.30 | 22.5 | 14.7 | 0.755 | 0.834 | 0.772 | 66.80 | 23.10 | 15.80 | [url]() |
 
-StCC: State Change Classification, AR: Action Recognition, LTA: Long-Term Anticipation, PNR: Point-of-no-return temporal localization
+**StCC**: State Change Classification, **AR**: Action Recognition, **LTA**: Long-Term Anticipation, **PNR**: Point-of-no-return temporal localization
 
