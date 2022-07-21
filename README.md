@@ -42,9 +42,6 @@ sh commands/command_train_epic_kitchens.sh
 
 ```
 
-    1. Full model w/o avid - done
-    2. Full model minus moi detection - done
-    3. Full model minus state change loss
 ```
 
 ## Pre-trained models
