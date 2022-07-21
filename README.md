@@ -67,3 +67,5 @@ We provide checkpoints for pre-trained models.
 
 **StCC**: State Change Classification, **AR**: Action Recognition, **LTA**: Long-Term Anticipation, **PNR**: Point-of-no-return temporal localization
 
+## Evaluation
+
