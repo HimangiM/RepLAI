@@ -51,10 +51,10 @@ We provide checkpoints for pre-trained models.
 
 | **Method** | **Top1 Acc (Verb)** | **Top1 Acc (Noun)** | **Top5 Acc (Verb)** | **Top5 Acc (Noun)** | **Model** |
 |------- |-----------------|-----------------|-----------------|-----------------|-------|
-| RepLAI w/o AStC | 29.29 | 9.67 | 73.33 | 29.54 | [url]() |
-| RepLAI w/o MoI | 28.71 | 8.33 | 73.17 | 27.29 | [url]() |
-| RepLAI (scratch) | 25.75 | 8.12 | 71.25 | 27.29 | [url]() |
-| RepLAI | 31.71 | 11.25 | 73.54 | 30.54 | [url]() |
+| RepLAI w/o AStC | 29.29 | 9.67 | 73.33 | 29.54 | [url](https://drive.google.com/file/d/1ls8MFxxaUr_D8KKzqANUfslU90DQYUxU/view?usp=sharing) |
+| RepLAI w/o MoI | 28.71 | 8.33 | 73.17 | 27.29 | [url](https://drive.google.com/file/d/1KAtIvgK4RxcgYPK8aHTbnJxawEpY0Q4w/view?usp=sharing) |
+| RepLAI (scratch) | 25.75 | 8.12 | 71.25 | 27.29 | [url](https://drive.google.com/file/d/1aVKCLD6DWZYafvrA-rODLyYMw0X_hj9d/view?usp=sharing) |
+| RepLAI | 31.71 | 11.25 | 73.54 | 30.54 | [url](https://drive.google.com/file/d/1FlRJxKo0gYGZTzxPUB4hloQWA4cNG4ZU/view?usp=sharing) |
 
 ### Ego4D
 
