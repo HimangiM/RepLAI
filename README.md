@@ -51,7 +51,6 @@ We provide checkpoints for pre-trained models.
 
 | **Method** | **Top1 Acc (Verb)** | **Top1 Acc (Noun)** | **Top5 Acc (Verb)** | **Top5 Acc (Noun)** | **Model** |
 |------- |-----------------|-----------------|-----------------|-----------------|-------|
-| RepLAI w/o AVC | 29.92 | 10.46 | 70.58 | 29.00 | [url]() |
 | RepLAI w/o AStC | 29.29 | 9.67 | 73.33 | 29.54 | [url]() |
 | RepLAI w/o MoI | 28.71 | 8.33 | 73.17 | 27.29 | [url]() |
 | RepLAI (scratch) | 25.75 | 8.12 | 71.25 | 27.29 | [url]() |
@@ -61,7 +60,6 @@ We provide checkpoints for pre-trained models.
 
 | **Method** | **StCC: Acc** | **AR: Top1 Acc (Verb)** | **AR: Top1 Acc (Noun)** | **LTA: ED@(Z=20) (Verb)** | **LTA: ED@(Z=20) (Noun)** | **PNR: Err** | **StCC w/ Audio: Acc** | **AR w/ Audio: Top1 Acc (Verb)** | **AR w/ Audio: Top1 Acc (Noun)** | **Model** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RepLAI w/o AVC | 64.00 | 20.3 | 12.4 | 0.781 | 0.854 | 0.792 | 64.60 | 22.70 | 14.00 | [url]() |
 | RepLAI w/o AStC | 63.60 | 21.1 | 13.5 | 0.774 | 0.853 | 0.795 | 64.40 | 21.40  | 13.00 | [url]() |
 | RepLAI w/o MoI | 62.90 | 19.8 | 11.2 | 0.792 | 0.868 | 0.801 | 64.10 | 20.80 | 11.70 | [url]() |
 | RepLAI (scratch) | 66.20 | 22.2 | 14.1 | 0.760 | 0.840 | 0.775 | 66.30 | 22.50 | 15.00 | [url]() |
