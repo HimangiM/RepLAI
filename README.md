@@ -42,5 +42,20 @@ sh commands/command_train_epic_kitchens.sh
 
 ```
 
-
+    1. Full model w/o avid - done
+    2. Full model minus moi detection - done
+    3. Full model minus state change loss
 ```
+
+## Pre-trained models
+We provide checkpoints for pre-trained models.
+
+### EPIC-KITCHENS-100 
+
+| Method | Top1 Acc (Verb) | Top1 Acc (Noun) | Top5 Acc (Verb) | Top5 Acc (Noun) | Model |
+|------- |-----------------|-----------------|-----------------|-----------------|-------|
+| RepLAI w/o AVC | 29.92 | 10.46 | 70.58 | 29.00 | [url]() |
+| RepLAI w/o AStC | 29.29 | 9.67 | 73.33 | 29.54 | [url]() |
+| RepLAI w/o MoI | 28.71 | 8.33 | 73.17 | 27.29 | [url]() |
+| RepLAI (scratch) | 25.75 | 8.12 | 71.25 | 27.29 | [url]() |
+| RepLAI | 31.71 | 11.25 | 73.54 | 30.54 | [url]() |
