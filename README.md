@@ -1,6 +1,6 @@
 # Self-Supervised Representation Learning from Videos of Audible Interactions
 
-Code release for the paper Self-Supervised Representation Learning from Videos of Audible Interactions.
+Code release for the paper Self-Supervised Representation Learning from Videos of Audible Interactions. This repo contains the PyTorch implementation and pre-trained models.
 
 Authors: Himangi Mittal, Pedro Morgado, Unnat Jain, Abhinav Gupta
 
