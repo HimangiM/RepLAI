@@ -23,5 +23,4 @@ data.args.delta_non_overlap=0.1 \
 optim.use_lr_scheduler=True \
 optim.lr_scheduler_args.max_lr=0.005 \
 optim.lr_scheduler_args.total_steps=100 \
-backbone.video.args.pretrained=True \
-backbone.audio.args.pretrained=True
+backbone.video.args.pretrained=True backbone.audio.args.pretrained=True
