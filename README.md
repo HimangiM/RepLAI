@@ -32,7 +32,7 @@ conda env create -f environment.yml
 
 ### Training on EPIC-KITCHENS-100
 
-Run the following command. Change the logging.name to create new log directories.
+Run the following command. Change the logging.name to create new log directories, logs/dataset root path by changing environment.data_dir, and dataset path by changing data.args.base_path.
 
 ```
 sh commands/command_train_epic_kitchens.sh 
@@ -43,6 +43,17 @@ sh commands/command_train_epic_kitchens.sh
 ```
 
 ```
+
+## Evaluation
+
+### Evaluation on EPIC-KITCHENS-100
+
+Run the following command for evaluation the downstream task of action recognition using a linear classifier. Change the logging.name to load the pre-trained model, logs/dataset root path by changing environment.data_dir, and logging.suffix to create new logs for evaluations.
+
+```
+sh commands/command_eval_epic_kitchens.sh 
+```
+
 
 ## Pre-trained models
 We provide checkpoints for pre-trained models.
