@@ -63,6 +63,20 @@ cd hands-and-objects/state-change-localization-classification/i3d-resnet50
 python train.py --cfg configs/ssrl_keyframe_loc_release1-v2_main-experiment.yaml --extra-args MISC.OUTPUT_DIR ./log/outputs/state-change-localization-classification/run2 MISC.NUM_GPUS 1 MISC.NUM_SHARDS 8 DATA_LOADER.NUM_WORKERS 4 TRAIN.BATCH_SIZE 32 SOLVER.ACCELERATOR ddp SOLVER.BASE_LR 0.0001 MODEL.PRETRAINED /checkpoints/replai
 ```
 
+#### Action recognition
+
+```
+cd ego4d-forecasting
+tools/long_term_anticipation/ego4d_recognition.sh ${PRETRAINED_DIR}
+```
+
+#### Long-term anticipation
+
+```
+cd ego4d-forecasting
+tools/long_term_anticipation/ego4d_forecasting.sh ${PRETRAINED_DIR}
+```
+
 ## Pre-trained models
 We provide checkpoints for pre-trained models.
 
