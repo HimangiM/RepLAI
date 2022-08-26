@@ -93,9 +93,9 @@ We provide checkpoints for pre-trained models.
 
 | **Method** | **StCC: Acc** | **AR: Top1 Acc (Verb)** | **AR: Top1 Acc (Noun)** | **LTA: ED@(Z=20) (Verb)** | **LTA: ED@(Z=20) (Noun)** | **PNR: Err** | **Model** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RepLAI w/o AStC | 63.60 | 21.1 | 13.5 | 0.774 | 0.853 | 0.795 | [url]() |
-| RepLAI w/o MoI | 62.90 | 19.8 | 11.2 | 0.792 | 0.868 | 0.801 | [url]() |
-| RepLAI (scratch) | 66.20 | 22.2 | 14.1 | 0.760 | 0.840 | 0.775 | [url]() |
-| RepLAI | 66.30 | 22.5 | 14.7 | 0.755 | 0.834 | 0.772 | [url]() |
+| RepLAI w/o AStC | 63.60 | 21.1 | 13.5 | 0.774 | 0.853 | 0.795 | [url](https://drive.google.com/file/d/1hQH1UWgC_-EztKpmma3TNST7OYGkQyI_/view?usp=sharing) |
+| RepLAI w/o MoI | 62.90 | 19.8 | 11.2 | 0.792 | 0.868 | 0.801 | [url](https://drive.google.com/file/d/1F6ZOuyS9C92OLrunA7zQkWp7vb6eQkOT/view?usp=sharing) |
+| RepLAI (scratch) | 66.20 | 22.2 | 14.1 | 0.760 | 0.840 | 0.775 | [url](https://drive.google.com/file/d/1g5DhV7z5W5kNBJSMQ2cHK0iWU0KAyecX/view?usp=sharing) |
+| RepLAI | 66.30 | 22.5 | 14.7 | 0.755 | 0.834 | 0.772 | [url](https://drive.google.com/file/d/1uw_fAB9N3y9--vGegKYdK_H2SSMbk4d5/view?usp=sharing) |
 
 **StCC**: State Change Classification, **AR**: Action Recognition, **LTA**: Long-Term Anticipation, **PNR**: Point-of-no-return temporal localization
