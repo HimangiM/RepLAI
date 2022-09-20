@@ -1,4 +1,4 @@
-# Self-Supervised Representation Learning from Videos of Audible Interactions
+# Learning State-Aware Visual Representations from Audible Interactions
 
 Code release for the paper Self-Supervised Representation Learning from Videos of Audible Interactions. This repo contains the PyTorch implementation and pre-trained models.
 
