@@ -21,7 +21,7 @@ If you find our work useful in your research, please cite:
 ## Installation
 (a). Clone the repository
 ```
-git clone https://github.com/HimangiM/SSRL_N2022.git
+git clone https://github.com/HimangiM/RepLAI.git
 ```
 (b). Install dependencies by setting up conda
 ```
