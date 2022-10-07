@@ -16,6 +16,12 @@ For more details, please refer to our [paper](https://arxiv.org/abs/2209.13583).
 ### Citation
 If you find our work useful in your research, please cite:
 ```
+@article{mittal2022learning,
+  title={Learning State-Aware Visual Representations from Audible Interactions},
+  author={Mittal, Himangi and Morgado, Pedro and Jain, Unnat and Gupta, Abhinav},
+  journal={arXiv preprint arXiv:2209.13583},
+  year={2022}
+}
 ```
 
 ## Installation
