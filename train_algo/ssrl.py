@@ -126,26 +126,6 @@ def main_worker(gpu, ngpus_per_node, args):
 
     cudnn.benchmark = True
 
-    # for phase in range(5):
-    #     # compute pmoi
-    #     0. dense_data = DenseDataset() # 0.5s clips
-    #     1. P_moi = evluate_moments_of_interest(moi_model, dense_data, args)   # Drandom
-    #     # number of samples * num of moments of time
-    #     3. prob_data = ProbDataset(P_moi)   # Dphase
-    #
-    #     for epoch in range(epochs):
-    #         2. train_model(prob_data, model, optimizer)
-    #
-    #     4. random_data = RandomDataset() # 1). sample 1 moi randomly, 2). we can also use last P_moi
-    #     # random_data will be used to train moi_model
-    #     5. random_data.label = evaluate_model(main_model, random_data)
-    #     # evaluate loss of main_model on random data, scores
-    #     6. train_moi_model(random_data, moi, optimizer.moi) #
-    #
-    #     and repeat
-
-
-
     for epoch in range(args.optim.start_epoch, args.optim.epochs):
         print('Epoch {}'.format(epoch))
         train(loaders['train'],
@@ -250,27 +230,6 @@ def train(loader, model, optimizer,
                     batch_i * world_size)
             progress.display(batch_i)
             progress.tbwrite(tb_step)
-
-        # if progress.tbwriter is not None and batch_i % 100 == 0:
-        #     std_val = torch.FloatTensor([0.229, 0.224, 0.225]).cuda(non_blocking=True)
-        #     mean_val = torch.FloatTensor([0.485, 0.456, 0.406]).cuda(non_blocking=True)
-        #     clip_vis =[(255 - (clips[clip_idx].mul(std_val.view(1, 3, 1, 1, 1)).add(mean_val.view(1, 3, 1, 1, 1)) * 255).long())[:, :, [0, -1]] for clip_idx in range(len(clips))]
-        #     clip_vis = torch.stack(clip_vis).permute(1, 0, 3, 2, 4, 5).reshape(-1, clips[0].shape[1], clips[0].shape[-2], clips[0].shape[-1]) # 16 x 8 x 2 x 3 x 112 x 112
-        #     clip_tb = torchvision.utils.make_grid(clip_vis, nrow=len(clips)*2)
-        #     progress.tbwriter.add_image('clips', clip_tb, tb_step)
-        #
-        #     plt.figure()
-        #     # ax = sns.heatmap(xa_loc.cpu().data.numpy())
-        #     # ax.figure.savefig(os.path.join(args.environment.data_dir, "tblogs", args.logging.name, f"xa_loc_heatmap_{tb_step}.png"))
-        #     xa_plot = torch.from_numpy(np.array(Image.open(os.path.join(args.environment.data_dir, "tblogs", args.logging.name,
-        #                                                                 f"xa_loc_heatmap_{tb_step}.png")).convert('RGB')))
-        #     progress.tbwriter.add_image('xa_loc', xa_plot.permute(2, 0, 1), tb_step)
-        #
-        #     # 'video_name', 'video_index', 'filename'
-        #     progress.tbwriter.add_text('video_name', ' '.join(data['video_name']), tb_step)
-        #     progress.tbwriter.add_text('filename', ' '.join(data['filename']), tb_step)
-        #
-        #     sys.stdout.flush()
 
         # Checkpoint
         ckp_manager.checkpoint(
