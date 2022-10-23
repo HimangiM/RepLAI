@@ -218,13 +218,7 @@ def train(loader, model, optimizer,
             total_norm = torch.norm(torch.stack([torch.norm(p.grad.detach(), norm_type) for p in model.parameters()]), norm_type)
             grad_time.update(total_norm)
 
-        # torch.save(xa_loc, os.path.join(args.logging.ckpt_dir, args.logging.name, f'xa_loc_{batch_i}'))
-        # torch.save(data['filename'], os.path.join(args.logging.ckpt_dir, args.logging.name,
-        #                                           f'filename_{batch_i}'))
-
         if batch_i % args.logging.print_freq == 0:
-            # len(loader.dataset) = 26600, args.optim.batch_size = optim.batch_size / 4, batch_i = 20n, world_size = 4
-            # after epoch tb_step is 6640 = 1660 * 4, step increases with +80, [0 / 1662], 1662 batches
             tb_step = (
                     epoch * len(loader.dataset) // args.optim.batch_size +
                     batch_i * world_size)
